@@ -5,28 +5,33 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Padauk&display=swap" rel="stylesheet">
 </head>
 <body>
 
-    <header>
-        <h1>Rafael Damasceno</h1>
-        <nav>
-            <ul>
+    <header class="cabecalho">
+        <h1 class="logo">Rafael Damasceno</h1>
+        <nav class="menu-principal">
+            <button class="menu-principal__btn">abrir/fechar menu</button>
+            <ul class="menu-principal__lista">
                 <li>
-                    <a href="index.html">Home</a>
+                    <a class="menu-principal-item  menu-principal-item--atual" href="index.html">Home</a class="">
 
                 </li>
 
                 <li>
-                    <a href="sobre.html">Sobre Mim</a>
+                    <a class="menu-principal-item" href="sobre.html">Sobre Mim</a class="">
                 </li>
 
                 <li>
-                    <a href="portfolio.html">Portfólio</a>
+                    <a class="menu-principal-item" href="portfolio.html">Portfólio</a class="">
                 </li>
 
                 <li>
-                    <a href="contato.html">Contato</a>
+                    <a class="menu-principal-item" href="contato.html">Contato</a>
                 </li>
             </ul>
         </nav>
@@ -76,53 +81,53 @@
         </section><!-- fim secao depoimentos-->
     </main>
 
-    <footer>
-        <div>
-            <div>
-                <a href="index.html">Rafael Damasceno</a>
+    <footer class="rodape">
+        <div class="rodape_linha1">
+            <div class="rodape_coluna">
+                <a href="index.html" class="logo logo1">Rafael Damasceno</a>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia provident mollitia dolore nostrum sed perspiciatis. Quod ad similique voluptatibus commodi exercitationem quibusdam doloremque velit ea! Labore ex autem cum adipisci.</p>
             </div>
 
-            <div>
-                <h2>Social</h2>
-                <ul>
+            <div class="rodape_coluna">
+                <h2 class="rodape_titulo">Social</h2 class="rodape_titulo">
+                <ul class="rodape_lista-links">
                     <li>
-                        <a href="#" target="_blank">Twitter</a>
+                        <a href="#" class="rodape_lista-links-item" target="_blank">Twitter</a>
                         
                     </li>
 
                     <li>
-                        <a href="#" target="_blank">Facebook</a>
+                        <a class="rodape_lista-links-item" href="#" target="_blank">Facebook</a>
                     </li>
 
                     <li>
-                        <a href="#" target="_blank">Instagram</a>
+                        <a class="rodape_lista-links-item" href="#" target="_blank">Instagram</a>
                     </li>
 
                     <li>
-                        <a href="#" target="_blank">GitHub</a>
+                        <a class="rodape_lista-links-item" href="#" target="_blank">GitHub</a>
                     </li>
                 </ul>
             </div>
 
-            <div>
-                <h2>Links</h2>
+            <div class="rodape_coluna">
+                <h2 class="rodape_titulo">Links</h2>
 
-                <ul>
+                <ul class="rodape_lista-links">
                     <li>
-                        <a href="index.html">Home</a>
+                        <a class="rodape_lista-links-item" href="index.html">Home</a>
                     </li>
 
                     <li>
-                        <a href="sobre.html">Sobre Mim</a>
+                        <a class="rodape_lista-links-item" href="sobre.html">Sobre Mim</a>
                     </li>
 
                     <li>
-                        <a href="portfolio.html">Portfólio</a>
+                        <a class="rodape_lista-links-item" href="portfolio.html">Portfólio</a>
                     </li>
 
                     <li>
-                        <a href="contato.html">Contato</a>
+                        <a class="rodape_lista-links-item" href="contato.html">Contato</a>
                     </li>
                 </ul>
 
@@ -131,7 +136,7 @@
           
         </div>
 
-        <div>
+        <div class="rodape_linha2">
             &copy; 2021 - Rafael Damasceno - Todos os direitos reservados
         </div>
     </footer>
