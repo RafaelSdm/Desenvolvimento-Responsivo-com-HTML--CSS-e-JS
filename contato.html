@@ -8,6 +8,9 @@
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
 <link href="https://fonts.googleapis.com/css2?family=Padauk&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/pagina.css">
+<link rel="stylesheet" href="css/portfolio.css">
+<link rel="stylesheet" href="css/contato.css">
     <title>Document</title>
 </head>
 <body>
@@ -39,39 +42,39 @@
 
     <main>
 
-        <header>
-            <h1>Contatos</h1>
+        <header class="pagina-cabecalho">
+            <h1 class="pagina-cabecalho__titulo">Contatos</h1>
         </header>
 
-        <section>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magni corporis assumenda autem nihil perspiciatis! Vero et ducimus distinctio. Error quaerat odit id hic saepe vitae, harum quia a enim placeat?</p>
+        <section class="pagina-conteudo">
+            <p class="text-center">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magni corporis assumenda autem nihil perspiciatis! Vero et ducimus distinctio. Error quaerat odit id hic saepe vitae, harum quia a enim placeat?</p>
 
-            <form action="#">
-                <div>
-                    <label for="nome">Nome</label> <br>
-                    <input type="text" name="nome" id="nome">
+            <form action="#" class="formulario">
+                <div class="formulario__grupo">
+                    <label class="formulario__label" for="nome">Nome</label> <br>
+                    <input class="formulario__campo" type="text" name="nome" id="nome">
                 </div>
 
-                <div>
-                    <label for="email">E-Mail</label> <br>
-                    <input type="email" name="email" id="email">
+                <div class="formulario__grupo">
+                    <label class="formulario__label" for="email">E-Mail</label> <br>
+                    <input class="formulario__campo" type="email" name="email" id="email">
                 </div>
 
-                <div>
+                <div class="formulario__grupo">
 
-                    <label for="mensagem">Deixa aqui sua mensagem</label> <br>
-                    <textarea name="mensagem" id="mensagem" cols="30" rows="10"></textarea>
+                    <label class="formulario__label" for="mensagem">Deixa aqui sua mensagem</label> <br>
+                    <textarea class="formulario__campo" name="mensagem" id="mensagem" cols="30" rows="10"></textarea>
 
                 
 
                 </div>
 
-                <input type="submit" value="Enviar">
+                <input class="formulario__botao" type="submit" value="Enviar">
             </form>
 
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi laboriosam, nisi eum officia asperiores qui, eos commodi assumenda temporibus placeat facilis nulla dolorem harum totam. Blanditiis voluptatum expedita quos commodi.</p>
 
-            <div>
+            <div id="mapa">
                 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14906.838066595777!2d-43.6268501791051!3d-20.924003384124724!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xa3cdd8f0cec069%3A0x68068faaea8a836d!2sCapela%20Nova%2C%20MG%2C%2036290-000!5e0!3m2!1spt-BR!2sbr!4v1621976349440!5m2!1spt-BR!2sbr" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
             </div>
         </section>
