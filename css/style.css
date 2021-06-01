@@ -531,6 +531,10 @@ img {
   margin-right: 8px;
   color: #f44242; }
 
+.container {
+  max-width: 1200px;
+  margin: 0 auto; }
+
 .cabecalho-home {
   background: url(../img/cabecalho-home-bg.jpg) black no-repeat;
   background-size: cover;
