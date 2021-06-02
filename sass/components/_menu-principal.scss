@@ -27,6 +27,7 @@
 
 .menu-principal__lista li{
     list-style: none;
+  
 
 }
 
@@ -42,4 +43,19 @@
 
 .menu-principal-item--atual{
     color: $cor-principal;
+}
+
+@media (min-width:$breakpoints-md){
+    .menu-principal__lista li{
+
+        display: inline-block;
+        margin: 0 10px;
+
+
+
+    }
+
+    .menu-principal__btn{
+        display: none;
+    }
 }

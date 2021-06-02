@@ -436,6 +436,13 @@ img {
 .menu-principal-item--atual {
   color: #f44242; }
 
+@media (min-width: 768px) {
+  .menu-principal__lista li {
+    display: inline-block;
+    margin: 0 10px; }
+  .menu-principal__btn {
+    display: none; } }
+
 .pagina-cabecalho {
   background-color: #f44242;
   color: white;
@@ -469,7 +476,8 @@ img {
   margin-bottom: 20px; }
 
 .servico {
-  padding: 30px 0; }
+  padding: 30px 0;
+  overflow: auto; }
 
 .servico__item {
   text-align: center;
@@ -479,9 +487,16 @@ img {
 .servico__texto {
   color: gray; }
 
+@media (min-width: 768px) {
+  .servico__item {
+    float: left;
+    width: 33.333%; } }
+
 .cabecalho {
-  padding: 15px;
-  background: #fdfdfd; }
+  padding: 15px 0;
+  background: #fdfdfd;
+  position: fixed;
+  width: 100%; }
 
 .rodape {
   color: white; }
