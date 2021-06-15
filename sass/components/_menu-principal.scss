@@ -4,7 +4,7 @@
     height: 50px;
     background-image: url(../img/menuprincipal-btn-bg.png);
     background-repeat: no-repeat;
-    background-position:5px 5px ;
+    background-position:-48px 7px ;
     text-indent: -9999px;
     background-color: #fff;
     border-color: #c4c4c4;
@@ -17,9 +17,9 @@
     right: 15px;
 }
 
-.menu-principal__btn--fechar{
-    background-position: -48px 7px;
-}
+
+
+
 
 .menu-principal__lista{
     padding: 0;
@@ -27,6 +27,8 @@
 
 .menu-principal__lista li{
     list-style: none;
+    
+    
   
 
 }
@@ -45,7 +47,7 @@
     color: $cor-principal;
 }
 
-@media (min-width:$breakpoints-md){
+@media (min-width:$breakpoints-md -1){
     .menu-principal__lista li{
 
         display: inline-block;
@@ -57,5 +59,25 @@
 
     .menu-principal__btn{
         display: none;
+    }
+}
+
+@media(max-width: $breakpoints-md){
+    .menu-principal{
+        .menu-principal--fechado{
+            .menu-principal__btn{
+                background-position: 5px 5px;
+            }
+
+            .menu-principal__lista{
+                margin: 0;
+            }
+        }
+
+        .menu-principal-item{
+            margin: 0;
+            height: 0;
+            overflow: hidden;
+        }
     }
 }
